@@ -60,6 +60,8 @@ def getSecretNum():
 
     # 获取秘密数字列表中的前NUM_DIGITS位数字
     secretNum = ''
+
+    
     for i in range(NUM_DIGITS):
         secretNum += str(numbers[i])
     return secretNum
