@@ -36,4 +36,8 @@ def mian():
     print(tiddlywiki_data)
 
 
-def getJsonFile():  # 从翻译网站通过api获得所有翻译的json文件
+def getApiJson():  # 从翻译网站通过api获得所有翻译的json文件
+
+
+
+def pushFile():  # 把处理好的文件push到git仓库
